@@ -1,13 +1,14 @@
-example1:
-	go run cmd/example1/main.go
+srp:
+	go run cmd/srp/main.go
 
-example2:
-	go run cmd/example2/main.go
+ocp:
+	go run cmd/ocp/main.go
 
-example3:
-	go run cmd/example3/main.go
+lsp:
+	go run cmd/lsp/main.go
 
-example4:
-	go run cmd/example4/main.go
+isp:
+	go run cmd/isp/main.go
 
-.PHONY: example1 example2 example3 example4
+dip:
+	go run cmd/dip/main.go
