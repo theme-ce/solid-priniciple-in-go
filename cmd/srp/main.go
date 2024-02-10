@@ -18,6 +18,7 @@ func sumOfFilteredNumbers(numbers []int) int {
 			sum += number
 		}
 	}
+
 	return sum
 }
 
